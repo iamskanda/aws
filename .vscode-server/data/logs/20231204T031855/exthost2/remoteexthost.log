@@ -7,3 +7,6 @@
 2023-12-04 03:19:31.053 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
 2023-12-04 03:19:31.403 [info] ExtensionService#_doActivateExtension vscode.git, startup: false, activationEvent: 'api', root cause: vscode.github
 2023-12-04 03:33:33.433 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'
+2023-12-04 05:28:53.338 [info] Extension host terminating: renderer disconnected for too long (2)
+2023-12-04 05:28:53.340 [info] Lock '/home/ec2-user/.vscode-server/data/User/workspaceStorage/f89fd071bf8d1e18c5256278a292b128/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2023-12-04 05:28:53.366 [info] Extension host with pid 3527 exiting with code 0
