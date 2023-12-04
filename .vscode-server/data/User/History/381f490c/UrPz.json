@@ -1,0 +1,41 @@
+{
+    "workbench.iconTheme": "material-icon-theme",
+    "liveServer.settings.CustomBrowser": "chrome",
+    "workbench.startupEditor": "none",
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "material-icon-theme.folders.color": "#90a4ae",
+    "window.zoomLevel": -1,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "git.autofetch": true,
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "cSpell.userWords": [
+        "pdfservices",
+        "Servic"
+    ],
+    "[css]": {
+        "editor.defaultFormatter": "vscode.css-language-features"
+    },
+    "workbench.colorTheme": "Default Dark+",
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "workbench.editorAssociations": {
+        "*.dll": "default"
+    },
+    "remote.SSH.remotePlatform": {
+        "ec2-15-207-254-79.ap-south-1.compute.amazonaws.com": "linux",
+        "ec2-13-233-136-222.ap-south-1.compute.amazonaws.com": "linux",
+        "ec2-3-110-217-110.ap-south-1.compute.amazonaws.com": "linux",
+        "ec2-65-2-75-71.ap-south-1.compute.amazonaws.com": "linux"
+    }
+}

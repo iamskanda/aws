@@ -1,0 +1,19 @@
+2023-11-30 14:00:19.374 [info] Extension host with pid 5916 started
+2023-11-30 14:00:19.374 [error] Error: EEXIST: file already exists, open '/home/ec2-user/.vscode-server/data/User/workspaceStorage/2885ba78cd8977fa1562f2a0f3936662/vscode.lock'
+2023-11-30 14:00:19.386 [info] Lock '/home/ec2-user/.vscode-server/data/User/workspaceStorage/2885ba78cd8977fa1562f2a0f3936662/vscode.lock': Could not acquire lock, checking if the file is stale.
+2023-11-30 14:00:19.444 [info] Lock '/home/ec2-user/.vscode-server/data/User/workspaceStorage/2885ba78cd8977fa1562f2a0f3936662/vscode.lock': The lock does not look stale, elapsed: 485 ms, giving up.
+2023-11-30 14:00:19.461 [info] Lock '/home/ec2-user/.vscode-server/data/User/workspaceStorage/2885ba78cd8977fa1562f2a0f3936662-1/vscode.lock': Lock acquired.
+2023-11-30 14:00:19.646 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-11-30 14:00:19.745 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-11-30 14:00:19.746 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-11-30 14:00:20.456 [info] Eager extensions activated
+2023-11-30 14:00:20.457 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-11-30 14:00:20.458 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-11-30 14:00:52.137 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-11-30 14:13:13.365 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2023-11-30 14:13:13.366 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2023-11-30 14:43:44.713 [info] ExtensionService#_doActivateExtension vscode.npm, startup: false, activationEvent: 'onTerminalQuickFixRequest:ms-vscode.npm-command'
+2023-11-30 16:48:34.903 [info] ExtensionService#_doActivateExtension vscode.html-language-features, startup: false, activationEvent: 'onLanguage:html'
+2023-11-30 20:41:47.236 [info] Extension host terminating: renderer disconnected for too long (1)
+2023-11-30 20:41:47.236 [info] Lock '/home/ec2-user/.vscode-server/data/User/workspaceStorage/2885ba78cd8977fa1562f2a0f3936662-1/vscode.lock': Marking the lockfile as scheduled to be released in 6000 ms.
+2023-11-30 20:41:47.302 [info] Extension host with pid 5916 exiting with code 0

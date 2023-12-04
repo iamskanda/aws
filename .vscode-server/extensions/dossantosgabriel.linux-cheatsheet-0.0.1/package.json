@@ -1,0 +1,44 @@
+{
+	"name": "linux-cheatsheet",
+	"displayName": "Linux Cheatsheet",
+	"description": "Linux Cheatsheet",
+	"version": "0.0.1",
+	"engines": {
+		"vscode": "^1.33.0"
+	},
+	"publisher": "DosSantosGabriel",
+	"categories": [
+		"Programming Languages"
+	],
+	"activationEvents": [
+		"onCommand:open.linux.cheatsheet"
+	],
+	"license": "MIT",
+	"icon": "assets/images/icon.png",
+	"main": "./out/extension.js",
+	"contributes": {
+		"commands": [
+			{
+				"command": "open.linux.cheatsheet",
+				"title": "Open Linux Cheatsheet"
+			}
+		]
+	},
+	"scripts": {
+		"vscode:prepublish": "npm run compile",
+		"compile": "tsc -p ./",
+		"watch": "tsc -watch -p ./",
+		"pretest": "npm run compile",
+		"test": "node ./out/test/runTest.js"
+	},
+	"__metadata": {
+		"id": "269760a1-b565-410e-baa9-26147546fc0e",
+		"publisherId": "2725671e-dde4-4efc-9ce7-3a1b98cdd08f",
+		"publisherDisplayName": "Gabriel Dos Santos",
+		"targetPlatform": "undefined",
+		"updated": false,
+		"isPreReleaseVersion": false,
+		"installedTimestamp": 1700137177140,
+		"preRelease": false
+	}
+}
