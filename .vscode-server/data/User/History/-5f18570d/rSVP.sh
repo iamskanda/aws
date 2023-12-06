@@ -15,7 +15,5 @@ while read name; do
 done < $1
 
 echo "skanda"
-echo "skanda"
-
 
 
