@@ -26,10 +26,10 @@
 # 	echo "Factorial of $i is $fact"
 # done
 
-# for i in $@; do
-#     fact=1
-#     for n in $(seq 2 $i); do
-#         let fact*=n
-#     done
-#     echo "factorial of num $i is $fact"
-# done
+for i in $@; do
+    fact=1
+    for n in $(seq 2 $i); do
+        let fact*=n
+    done
+    echo "factorial of num $i is $fact"
+done

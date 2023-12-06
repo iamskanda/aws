@@ -1,0 +1,94 @@
+2023-12-04 13:34:33.895 [info] 
+
+
+
+
+2023-12-04 13:34:33.926 [info] Extension host agent started.
+2023-12-04 13:34:34.125 [info] [127.0.0.1][3caa2d72][ManagementConnection] New connection established.
+2023-12-04 13:34:34.246 [info] [127.0.0.1][cab01c57][ExtensionHostConnection] New connection established.
+2023-12-04 13:34:34.684 [info] [127.0.0.1][cab01c57][ExtensionHostConnection] <1167> Launched Extension Host Process.
+2023-12-04 13:34:36.621 [error] CodeExpectedError: Could not find pty on pty host
+    at L.U (/home/ec2-user/.vscode-server/bin/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/out/vs/platform/terminal/node/ptyHostMain.js:43:32314)
+    at L.updateTitle (/home/ec2-user/.vscode-server/bin/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/out/vs/platform/terminal/node/ptyHostMain.js:43:27475)
+    at W.<computed> (/home/ec2-user/.vscode-server/bin/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/out/vs/platform/terminal/node/ptyHostMain.js:43:22722)
+    at Object.call (/home/ec2-user/.vscode-server/bin/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/out/vs/platform/terminal/node/ptyHostMain.js:34:5005)
+    at c.s (/home/ec2-user/.vscode-server/bin/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/out/vs/platform/terminal/node/ptyHostMain.js:32:5118)
+    at c.q (/home/ec2-user/.vscode-server/bin/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/out/vs/platform/terminal/node/ptyHostMain.js:32:4641)
+    at g.value (/home/ec2-user/.vscode-server/bin/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/out/vs/platform/terminal/node/ptyHostMain.js:32:4052)
+    at r.y (/home/ec2-user/.vscode-server/bin/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/out/vs/platform/terminal/node/ptyHostMain.js:27:1902)
+    at r.fire (/home/ec2-user/.vscode-server/bin/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/out/vs/platform/terminal/node/ptyHostMain.js:27:2119)
+    at process.le (/home/ec2-user/.vscode-server/bin/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/out/vs/platform/terminal/node/ptyHostMain.js:25:9948)
+    at process.emit (node:events:513:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2023-12-04 13:34:39.141 [info] [127.0.0.1][3caa2d72][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2023-12-04 13:34:39.245 [info] [127.0.0.1][cab01c57][ExtensionHostConnection] <1167> Extension Host Process exited with code: 0, signal: null.
+2023-12-04 13:34:39.246 [info] Cancelling previous shutdown timeout
+2023-12-04 13:34:39.246 [info] Last EH closed, waiting before shutting down
+2023-12-04 13:34:43.344 [info] Got delay-shutdown request while in shutdown timeout, delaying
+2023-12-04 13:34:43.344 [info] Cancelling previous shutdown timeout
+2023-12-04 13:34:44.397 [info] [127.0.0.1][7aaa3623][ManagementConnection] New connection established.
+2023-12-04 13:34:44.413 [info] [127.0.0.1][325999ea][ExtensionHostConnection] New connection established.
+2023-12-04 13:34:44.419 [info] [127.0.0.1][325999ea][ExtensionHostConnection] <1333> Launched Extension Host Process.
+2023-12-04 13:39:43.345 [info] New EH opened, aborting shutdown
+2023-12-04 16:01:29.811 [info] [127.0.0.1][7aaa3623][ManagementConnection] The client has reconnected.
+2023-12-04 16:01:30.887 [error] CodeExpectedError: Could not find pty on pty host
+    at L.U (/home/ec2-user/.vscode-server/bin/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/out/vs/platform/terminal/node/ptyHostMain.js:43:32314)
+    at L.updateIcon (/home/ec2-user/.vscode-server/bin/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/out/vs/platform/terminal/node/ptyHostMain.js:43:27526)
+    at W.<computed> (/home/ec2-user/.vscode-server/bin/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/out/vs/platform/terminal/node/ptyHostMain.js:43:22722)
+    at Object.call (/home/ec2-user/.vscode-server/bin/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/out/vs/platform/terminal/node/ptyHostMain.js:34:5005)
+    at c.s (/home/ec2-user/.vscode-server/bin/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/out/vs/platform/terminal/node/ptyHostMain.js:32:5118)
+    at c.q (/home/ec2-user/.vscode-server/bin/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/out/vs/platform/terminal/node/ptyHostMain.js:32:4641)
+    at g.value (/home/ec2-user/.vscode-server/bin/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/out/vs/platform/terminal/node/ptyHostMain.js:32:4052)
+    at r.y (/home/ec2-user/.vscode-server/bin/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/out/vs/platform/terminal/node/ptyHostMain.js:27:1902)
+    at r.fire (/home/ec2-user/.vscode-server/bin/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/out/vs/platform/terminal/node/ptyHostMain.js:27:2119)
+    at process.le (/home/ec2-user/.vscode-server/bin/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/out/vs/platform/terminal/node/ptyHostMain.js:25:9948)
+    at process.emit (node:events:513:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2023-12-04 16:01:30.890 [error] CodeExpectedError: Could not find pty on pty host
+    at L.U (/home/ec2-user/.vscode-server/bin/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/out/vs/platform/terminal/node/ptyHostMain.js:43:32314)
+    at L.updateTitle (/home/ec2-user/.vscode-server/bin/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/out/vs/platform/terminal/node/ptyHostMain.js:43:27475)
+    at W.<computed> (/home/ec2-user/.vscode-server/bin/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/out/vs/platform/terminal/node/ptyHostMain.js:43:22722)
+    at Object.call (/home/ec2-user/.vscode-server/bin/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/out/vs/platform/terminal/node/ptyHostMain.js:34:5005)
+    at c.s (/home/ec2-user/.vscode-server/bin/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/out/vs/platform/terminal/node/ptyHostMain.js:32:5118)
+    at c.q (/home/ec2-user/.vscode-server/bin/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/out/vs/platform/terminal/node/ptyHostMain.js:32:4641)
+    at g.value (/home/ec2-user/.vscode-server/bin/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/out/vs/platform/terminal/node/ptyHostMain.js:32:4052)
+    at r.y (/home/ec2-user/.vscode-server/bin/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/out/vs/platform/terminal/node/ptyHostMain.js:27:1902)
+    at r.fire (/home/ec2-user/.vscode-server/bin/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/out/vs/platform/terminal/node/ptyHostMain.js:27:2119)
+    at process.le (/home/ec2-user/.vscode-server/bin/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/out/vs/platform/terminal/node/ptyHostMain.js:25:9948)
+    at process.emit (node:events:513:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2023-12-04 16:01:30.891 [error] CodeExpectedError: Could not find pty on pty host
+    at L.U (/home/ec2-user/.vscode-server/bin/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/out/vs/platform/terminal/node/ptyHostMain.js:43:32314)
+    at L.updateTitle (/home/ec2-user/.vscode-server/bin/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/out/vs/platform/terminal/node/ptyHostMain.js:43:27475)
+    at W.<computed> (/home/ec2-user/.vscode-server/bin/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/out/vs/platform/terminal/node/ptyHostMain.js:43:22722)
+    at Object.call (/home/ec2-user/.vscode-server/bin/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/out/vs/platform/terminal/node/ptyHostMain.js:34:5005)
+    at c.s (/home/ec2-user/.vscode-server/bin/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/out/vs/platform/terminal/node/ptyHostMain.js:32:5118)
+    at c.q (/home/ec2-user/.vscode-server/bin/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/out/vs/platform/terminal/node/ptyHostMain.js:32:4641)
+    at g.value (/home/ec2-user/.vscode-server/bin/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/out/vs/platform/terminal/node/ptyHostMain.js:32:4052)
+    at r.y (/home/ec2-user/.vscode-server/bin/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/out/vs/platform/terminal/node/ptyHostMain.js:27:1902)
+    at r.fire (/home/ec2-user/.vscode-server/bin/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/out/vs/platform/terminal/node/ptyHostMain.js:27:2119)
+    at process.le (/home/ec2-user/.vscode-server/bin/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/out/vs/platform/terminal/node/ptyHostMain.js:25:9948)
+    at process.emit (node:events:513:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2023-12-04 16:01:31.826 [error] CodeExpectedError: Could not find pty on pty host
+    at L.U (/home/ec2-user/.vscode-server/bin/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/out/vs/platform/terminal/node/ptyHostMain.js:43:32314)
+    at L.updateTitle (/home/ec2-user/.vscode-server/bin/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/out/vs/platform/terminal/node/ptyHostMain.js:43:27475)
+    at W.<computed> (/home/ec2-user/.vscode-server/bin/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/out/vs/platform/terminal/node/ptyHostMain.js:43:22722)
+    at Object.call (/home/ec2-user/.vscode-server/bin/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/out/vs/platform/terminal/node/ptyHostMain.js:34:5005)
+    at c.s (/home/ec2-user/.vscode-server/bin/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/out/vs/platform/terminal/node/ptyHostMain.js:32:5118)
+    at c.q (/home/ec2-user/.vscode-server/bin/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/out/vs/platform/terminal/node/ptyHostMain.js:32:4641)
+    at g.value (/home/ec2-user/.vscode-server/bin/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/out/vs/platform/terminal/node/ptyHostMain.js:32:4052)
+    at r.y (/home/ec2-user/.vscode-server/bin/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/out/vs/platform/terminal/node/ptyHostMain.js:27:1902)
+    at r.fire (/home/ec2-user/.vscode-server/bin/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/out/vs/platform/terminal/node/ptyHostMain.js:27:2119)
+    at process.le (/home/ec2-user/.vscode-server/bin/1a5daa3a0231a0fbba4f14db7ec463cf99d7768e/out/vs/platform/terminal/node/ptyHostMain.js:25:9948)
+    at process.emit (node:events:513:28)
+    at emit (node:internal/child_process:937:14)
+    at process.processTicksAndRejections (node:internal/process/task_queues:83:21)
+2023-12-04 16:01:33.674 [info] [127.0.0.1][325999ea][ExtensionHostConnection] The client has reconnected.
+2023-12-04 20:26:13.235 [info] [127.0.0.1][325999ea][ExtensionHostConnection] <1333> Extension Host Process exited with code: 0, signal: null.
+2023-12-04 20:26:13.235 [info] Last EH closed, waiting before shutting down
+2023-12-04 20:31:13.235 [info] Last EH closed, shutting down

@@ -1,225 +1,3 @@
-cd ..
-pwd
-clear
-pw
-pwd
-clear
-cd myscript/
-cd projects/
-clear
-sh project5.sh 
-clear
-sh project5.sh 
-clear
-sh project5.sh 
-clear
-sh project5.sh 
-clear
-top
-clear
-lscpu
-clear
-ifconfig
-uname -r
-clear
-ulimit -f
-ulimit -f -m
-clear
-rm -rf home/ece-user/myscript/test/
-rm -rf /home/ec2-user/myscript/test/
-clear
-tput project5.sh 
-cleear
-clear
-who
-whoami
-hostname
-whoami
-clear
-pwd
-clear
-who
-whoami
-sudo su abc
-cd
-pwd
-clear
-sudo who
-clear
-w
-clear
-sudo yum reinstall coreutils
-clear
-who
-w
-clear
-whoami
-clear
-which who
-sudo who
-clear
-whoami
-clear
-w
-clear
-w
-clear
-cd myscript/
-mv data1.txt data10 
-mv data10 data1.txt 
-clear
-less data.txt
-clear
-more data.txt 
-vi mathOp.sh 
-clear
-less data.txt 
-clear
-ls -ltr
-ll
-clear
-top
-clear
-ifconfig
-clear
-ip addr
-clear
-cd
-clear
-ls -la
-ls -a
-clear
-histrory
-clear
-history
-clear
-ls -i
-ls -li
-clear
-pwd
-clear
-locate data1.txt
-locate f1.py
-clear
-find ../ -name f1.py
-find -name f1.py
-clear
-locate f1.py
-find myscript/ -name f1.py
-find myscript/ -name f10.py
-locate f10.py
-clear
-echo "welcome" | wc -w
-echo "welcome" | wc -c
-echo "welcome" | wc -l
-clear
-cd myscript/
-clear
-diff data.txt data1.txt
-clear
-shred -vu data1.txt
-clear
-lscpu
-clear
-dmidecode
-clear
-ls -l
-clear
-lscpu
-clear
-cd projects/
-clear
-file f1.py
-file project1.sh
-clea
-clar
-clear
-vi data1.txt
-clear
-crontab -l
-clear
-systemctl status httpd
-systemctl status sshd
-clear
-systemctl is-active sshd
-systemctl is-active httpd
-systemctl start tomcat
-sudo systemctl start tomcat
-clear
-sudo systemctl stop sshd
-systemctl is-active sshd
-sudo systemctl start sshd
-systemctl is-active sshd
-df 
-df -h
-clear
-df -h
-clear
-du -h
-clear
-cd ..
-du -h
-ps -f
-top
-clear
-top
-htop
-h top
-clear
-ps
-ps -ef
-clear
-ps -ef | grep amazon
-clear
-telnet www.google.com
-ping www.google.com
-clear
-cd ..
-pwd
-clear
-netstat -tln
-netstat putan | grep port_no
-clear
-netstat putan | grep :22
-netstat putan | grep 22
-clear
-netstat putan 
-netstat -putan 
-clear
-netstat -putan | grep :22
-netstat -putan
-netstat -putan | grep :22
-clear
-netstat -i
-ifconfig
-clear
-ll
-clear
-free
-free -h
-top
-clear
-rpm -qa
-rpm -qa | grep redhat
-clear
-rpm -qa | grep redhat
-rpm -qa | grep httpd
-rpm -qa | grep sshd
-rpm -qa | grep ubuntu
-clear
-ping -c 3 google.com
-clear
-cat /etc/groups
-pwd
-clear
-ls etc/groups
-ls getent groups
-ls getent /etc/groups
-clear
-getent group
-clear
-cat /etc/group
-clear
 echo $?
 echo $!
 clear
@@ -997,4 +775,226 @@ clear
 ls -la
 rm -rf .git
 ls -la
+clear
+sudo yum install git
+clear
+git --version
+clear
+git config --list
+git init
+clear
+ls -la
+clear
+git config --list
+clear
+git add NFILE 
+git status
+clear
+git commit -m "first commit"
+git status
+clear
+git remote add origin https://github.com/iamskanda/aws.git
+git push -u origin main
+git branch
+git push -u origin master
+git add .
+sudo git add .
+clear
+sudo git add .
+git log
+clear
+git status
+clear
+git commit -m "adding add files"
+clear
+sudo git commit -m "adding add files"
+git push -u origin master
+sudo git push -u origin master
+clear
+git config --l
+clear
+git config --f
+git config --l
+clear
+git config credential.helper store
+clear
+git -credentials
+git --config-env
+git --config-env=iamskanda=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
+clear
+whoami
+sudo su abc
+clear
+lsblk -f
+clear
+cd myscript/
+cd projects/
+clear
+sh project2.sh 
+clear
+sh project2.sh 
+sh project2.sh 2 3 5
+cd
+mkdir qaFolder
+touch qa1.sh
+cd qaFolder/
+touch qa1.sh
+clear
+touch xyz.txt
+sh qa1.sh xyz.txt 
+clear
+sh qa1.sh xyz.txt 
+clear
+sh qa1.sh xyz.txt 
+clear
+sh qa1.sh xyz.txt 
+clear
+sh qa1.sh xyz.txt 
+clear
+sh qa1.sh xyz.txt 
+clear
+cd
+clear
+cd qaFolder/
+clear
+sh qa1.sh 
+clear
+sh qa1.sh 
+clear
+sh qa1.sh 
+clear
+cat xyz.txt | wc -l
+sh qa1.sh 
+clear
+sh qa1.sh 
+clear
+sh qa1.sh 
+clear
+sh qa1.sh 
+clear
+sh qa1.sh 
+clear
+sh qa1.sh 
+clear
+sh qa1.sh xyz.txt
+clear
+cd
+pwd
+clear
+cat /etc/os-release 
+clear
+uname -a
+clear
+java --version
+clear
+mvn --version
+mvn -version
+sudo yum update
+clear
+sudo yum install maven
+clear
+mvn --version
+clear
+mvn --version
+clear
+du -ls qaFolder
+du -lsh qaFolder
+du -lsh myscript
+du -lsh apache-tomcat-9.0.82
+sudo du -lsh apache-tomcat-9.0.82
+clear
+rpm -qa
+clear
+rpm -qa | grep mevan
+clear
+rpm -qa | grep java
+rpm -qa | grep sshd
+rpm -qa | grep ssh
+clear
+cat /etc/group
+clear
+lscpu
+clear
+cat /proc/cpuinfo 
+lscpu
+clear
+lsusb
+which lsusb
+clear
+sudo yum install usbutils
+clear
+lsusb
+which lsusb
+clear
+cat /var/
+ls /var/
+ls /var/log/
+at /var/log/messages
+cat /var/log/messages
+sudo cat /var/log/messages
+clear
+ls -1 
+ls -1 | wc -l
+ls -2 | wc -l
+ls --help
+clear
+ls --help
+clear
+ls -1 | wc -l
+clear
+cat date_log.txt 
+clear
+cat date_log.txt | head -30
+clear
+cat date_log.txt | head -30
+clear
+cat date_log.txt | head -30 | tail -5
+clear
+ping -c 3 google.com
+clear
+env
+clear
+printenv
+clear
+pidof httpd
+pidof sshd
+clear
+pidof sshd
+ps -l 951
+ps -l 13563
+ps -l 13579
+cleear
+clear
+ps -l 13579
+pidof sshd
+clear
+pidof sshd
+ps -l 13579
+renice -1 -p 13579
+sudo renice -1 -p 13579
+ps -l 13579
+sudo renice -1 -p 13579
+sudo renice 0 -p 13579
+ps -l 13579
+clear
+top
+clear
+jobs
+clear
+bg
+fg
+clear
+dmesg
+clear
+ls -l *.c
+ls -l *.c | wc -l
+clear
+git log
+git status
+clear
+gitk NFILE 
+git blame NFILE 
+clear
+git history
+history
 clear
