@@ -1,259 +1,3 @@
-echo $?
-echo $!
-clear
-ls -ltr
-clear
-ls -lin
-lscpu
-cat /proc/cpuinfo 
-clear
-lscpu
-clear
-cat /proc/cpuinfo 
-clear
-usbls
-clear
-lsusb
-clear
-path myscript/
-PATH myscript/
-HOME myscript/
-echo $home
-echo $HOME
-clear
-cat /var/log/
-cat /var/log
-clear
-/var/log
-clear
-ls /var/log
-ls /var
-ls /var/log
-clear
-ls /var/lib/mlocate/mlocate.db
-ls /var/lib/mlocate
-sudo ls /var/lib/mlocate
-sudo ls /var/lib/mlocate/mlocate.db
-sudo cat /var/lib/mlocate/mlocate.db
-clear
-cd myscript/
-touch data1.txt
-clear
-echo "working" | tee data1.txt 
-echo "working" | >> t data1.txt 
-echo "working" >> data1.txt 
-echo "test" | tee -a data1.txt 
-echo "test" | tee data1.txt 
-echo "test" | tee -a data1.txt 
-clear
-ls -1 | wc -l
-cd backup/
-clear
-ls -1 | wc -l
-cd ..
-cd projects/
-clear
-ls -1 | wc -l
-ls -1
-ls -1 | wc -l
-clear
-ls -2
-ls -9
-ls -1
-ls -1 | wc -l
-clear
-printenv
-clear
-env
-clear
-pdiof sshd
-pdiof httpd
-pdiof sshd
-clear
-ps -l pid
-ps -l 1344
-ps -ef
-ps -l 12699
-clear
-atd
-clar
-clear
-env
-clear
-printenv
-clear
-lscpu
-clear
-pidof sshd
-pidof httpd
-pidof sshd
-nice -n 5 process
-ps -ef
-nice -n 5 15377
-ps -l 15377
-nice -n 5 0
-clear
-nice -n 10 test
-clear
-ps -l 15377
-lscpu
-top -h
-top
-clear
-jobs
-clear
-sleep 1000s
-jobs
-clear
-sleep 1000s &
-echo $!
-echo $?
-echo $$
-clear
-echo $!
-jobs
-bg
-fg
-jobs
-clear
-sleep 1000s $
-clear
-sleep 1000s &
-clear
-sleep 10002s &
-clear
-jobs
-fg
-jobs
-sleep 10020s &
-clear
-echo $!
-ps -ef
-bg
-fg 
-ps -ef
-sleep 10002s &
-ps -ef
-fg 17003
-fg 
-clear
-bg
-clar
-clear
-sleep 1000s &
-sleep 100025s &
-sleep 1000250s &
-bg
-bgls
-clear
-fg %1
-bg
-fg %3
-3
-bg
-clear
-bg
-jobs
-bg
-jobs
-htop
-top
-ps aux
-ps -ef
-clear
-dmesg
-clear
-cd myscript/projects/
-clear
-ls -1
-ls -1 | wc -l
-ls -l *.txt
-ls -l *.py
-find -type f *.txt
-find -type f '*.txt'
-find . -type f '*.txt'
-clear
-ls -l *.py
-ls -l ^Test
-ls -li ^Test
-ls -l ^TEst
-ls -l TEst
-ls -l "TEst"
-ls -l *.txt
-ls -l *.txt | wc -l
-celar
-clear
-cd TEst/
-clear
-touch file{1..20}
-rm file*
-clear
-cd ..
-clear
-ls [cm]*
-ls [f]*
-ls l[f]*
-ls [f]* l
-clear
-ls [f]* l
-ls [d]* l
-ls [p]* l
-ls [p;d]* l
-ls [p]* [d]* l
-ls [p]* [d]*
-clear
-ls [df]*
-ls [fd]*
-clear
-cat project5.sh 
-cat project5.sh | grep -v ^#
-clear
-ls -1 | grep -i ^f
-ls -1 | grep -i ^d
-ls -1 | grep -i ^T
-ls -1 | grep -v ^T
-ls -1 | grep -v ^p
-clear
-echo b{a,e,i,o}t
-vls
-lvs
-sudo lvs
-cleat
-clear
-lvs
-clear
-sudo yu install lvm2
-sudo yum install lvm2
-clear
-lvm
-sudo lvm
-cler
-clear
-lvs
-sudo lvs
-clear
-vgs
-sudo vgs
-clear
-top
-clear
-free
-free -h
-clear
-sudo su 
-cd
-pwd
-du
-clear
-lsblk -f
-clear
-echo $?
-echo $0
-clear
-CHSH
-clear
-! -d myscript/
-clear
 uid
 id -u
 sudo su'
@@ -998,3 +742,259 @@ clear
 git history
 history
 clear
+git log --merge --oneline
+git status
+clear
+sudo git status
+clear
+git log
+clear
+git rebase -i 64897eda2468e031122f3f82f76710d1716110a2
+git log
+git rebase -i b315262ba4f8cc824a7182c41fe300b3ab0c567a
+git rebase --continue
+git rebase --abort
+sudo git rebase --abort
+clear
+git log
+clear
+git rebase -i b315262ba4f8cc824a7182c41fe300b3ab0c567a
+git log
+clear
+git log
+git rebase -i b315262ba4f8cc824a7182c41fe300b3ab0c567a
+sudo git rebase --abort
+clear
+git log
+clear
+git rebase -i b315262ba4f8cc824a7182c41fe300b3ab0c567a
+git log
+sudo git rebase --abort
+clear
+git log
+clear
+git log
+clear
+git rebase -i b315262ba4f8cc824a7182c41fe300b3ab0c567a
+git log
+sudo git rebase --abort
+clear
+git log
+clear
+git rebase -i b315262ba4f8cc824a7182c41fe300b3ab0c567a
+git rebase --edit-todo
+sudo git rebase --abort
+git log
+clear
+git log
+clear
+git rebase -i b315262ba4f8cc824a7182c41fe300b3ab0c567a
+sudo git rebase --abort
+clear
+git branch 
+git branch -a
+clear
+touch f5.txt
+sudo git add .; sudo git commit -m "added file f5 to the dev branch"
+sudo git status
+cleear
+clear
+git push origin -u dev
+sudo git push origin -u dev
+git log
+clear
+git rebase -i b315262ba4f8cc824a7182c41fe300b3ab0c567a
+sudo git rebase --abort
+git rebase --continue
+git checkout --.
+git checkout -- .
+sudo git rebase --abort
+clear
+git log
+clear
+git rebase -i c8bc6353f494caaded4156f90279c158313ac226
+git rebase --abort
+sudo git rebase --abort
+git rebase -i c8bc6353f494caaded4156f90279c158313ac226
+rm -fr .git/rebase-merge
+sudo git rebase --abort
+git log
+clear
+git rebase -i b315262ba4f8cc824a7182c41fe300b3ab0c567a
+clear
+git log
+cleaqr
+clear
+git push origin -u dev
+sudo git push origin -u dev
+sudo git push origin -a dev
+sudo git push origin -- dev
+cleaqr
+clear
+git diff-tree -r stash
+git diff-tree -r add
+git diff-tree -r {git add .}
+git diff-tree -r file
+git diff-tree -r abc123
+clear
+git diff-tree -r abc123
+sudo git diff-tree -r abc123
+cleear]
+clear
+git diff-tree -r abc123
+git branch --merged
+git branch -a
+git branch 
+git branch --no-merged
+clear
+git reflog
+clear
+git reflog
+clear
+git branch
+git branch -a
+git switch main
+git branch -a
+git branch dev
+git switch dev
+cleear
+clear
+git checkout dev
+sudo git checkout dev
+clear
+git branch
+sudo git status
+sudo git add .
+git status
+clear
+git commit -m "changing the folder name"
+sudo git commit -m "changing the folder name"
+sudo git push origin main
+clear
+git switch dev
+clear
+git reflog show
+clear
+cd /opt/
+ls -la
+cd apache-maven-3.9.6/
+clear
+ls 
+git branch -a
+cd
+git branch -a
+maven --v
+mvn -version
+clear
+mvn -v
+pwd
+clear
+mkdir maven
+clear
+cd maven/
+clear
+git clone https://github.com/marcobehlerjetbrains/maven-tutorial.git
+ls
+cd maven-tutorial/
+clear
+ls
+cler
+clear
+ls -la
+cd src/
+ls
+ls main/
+ls main/java/
+ls main/java/com/
+ls main/java/com/jetbrains/
+ls main/java/com/jetbrains/marco/
+cat main/java/com/jetbrains/marco/Mp3Util.java 
+clear
+cd
+pwd
+cd maven/maven-tutorial/
+ls -la
+clear
+mvnw validate
+mvnw.cmd clean install
+clear
+cd
+cldear
+clear
+rm -rf maven/
+clear
+pwd
+clear
+pwd
+clear
+sudo yum install java3
+sudo yum install java
+yum install wget
+sudo yum install wget
+cleaeer
+clear
+wget https://dlcdn.apache.org/maven/maven-3/3.9.6/binaries/apache-maven-3.9.6-bin.tar.gz
+tar -xvf apache-maven-3.9.6-bin.tar.gz 
+clear
+mv /home/ec2-user/apache-maven-3.9.6 /opt/
+sudo mv /home/ec2-user/apache-maven-3.9.6 /opt/
+ls /opt/
+cd /opt/
+ls
+cd apache-maven-3.9.6/
+clear
+ls -la
+sudo vi ~/.bashrc 
+source ~/.bashrc 
+t mvn -version
+ mvn -version
+pwd
+cd
+ mvn -version
+mvn -version
+clear
+mvn validate
+cler
+clear
+mkdir maven-git
+cd maven-git/
+clear
+git clone https://github.com/marcobehlerjetbrains/maven-tutorial.git
+cd maven-tutorial/
+ls
+clear
+mvn validate
+mvn compile
+mvn test
+mvn packge
+mvn package
+mvn clean
+clear
+git status
+git branch
+git branch -a
+clear
+cd
+git branch -a
+git status
+clear
+mvn test
+mvn package
+clear
+cat /var/lib/mlocate/
+sudo ls /var/lib/mlocate/
+sudo cat /var/lib/mlocate/mlocate.db
+clear
+env
+clear
+printenv
+clear
+pidof sshd
+ps -ef | grep sshd
+ps -efl
+clear
+ifconfig
+clear
+lscpu
+clear
+netstat -lnt
